@@ -25,13 +25,13 @@ Upload → Process → Chunk → Embed → Store (ChromaDB) → Ask → Retrieve
 
 # Project Structure 📂
 
-├── app.py           # Gradio UI
-├── qa_pipeline.py   # QA logic (retrieval + generation)
-├── ingestion.py     # Document processing & storage
-├── config.py        # Settings (API keys, paths, models)
-├── main.py          # Entry point
-├── chroma_db/       # Vector database
-└── uploaded_files/  # Uploaded documents
+- app.py           # Gradio UI
+- qa_pipeline.py   # QA logic (retrieval + generation)
+- ingestion.py     # Document processing & storage
+- config.py        # Settings (API keys, paths, models)
+- main.py          # Entry point
+- chroma_db/       # Vector database
+- uploaded_files/  # Uploaded documents
 ---
 
 # Tech Stack 🔧 
